@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input-field {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-colors;
+  }
+  
+  .btn-add {
+    @apply flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 transition-colors;
+  }
+  
+  .btn-remove {
+    @apply flex items-center gap-2 px-3 py-1 text-sm font-medium text-red-600 hover:text-red-700 transition-colors;
+  }
+}
